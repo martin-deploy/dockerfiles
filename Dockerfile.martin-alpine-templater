@@ -1,5 +1,6 @@
 FROM ghcr.io/martin-deploy/martin-alpine:0.1.0
 
 RUN apk add --no-cache nodejs
+RUN apk add --no-cache npm
 RUN npm install -g typescript
 RUN npm install -g ts-node
