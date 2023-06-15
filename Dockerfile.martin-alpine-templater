@@ -4,3 +4,5 @@ RUN apk add --no-cache nodejs
 RUN apk add --no-cache npm
 RUN npm install -g typescript
 RUN npm install -g ts-node
+RUN delgroup ping
+RUN adduser -D -u 999 argocd argocd
