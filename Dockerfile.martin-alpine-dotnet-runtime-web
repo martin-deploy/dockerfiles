@@ -1,3 +1,3 @@
-FROM ghcr.io/martin-deploy/martin-alpine:0.1.0
+FROM ghcr.io/martin-deploy/martin-alpine:0.2.0
 
 RUN apk add --no-cache aspnetcore7-runtime
